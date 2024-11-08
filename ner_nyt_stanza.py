@@ -3,7 +3,6 @@ import feedparser as fp
 
 #st.download('en')
 nlp = st.Pipeline('en')
-#doc = nlp("Barack Obama was born in Hawaii.")
 
 nyt_rss = {
     "US": "https://rss.nytimes.com/services/xml/rss/nyt/Americas.xml", 
@@ -22,7 +21,3 @@ for region, feed in nyt_feed.items():
         
         print(doc.entities)
         print("-" * 40)
-"""         print("Entities found:")
-        for ent in doc.ents:
-            print(ent.entities) """
-        
