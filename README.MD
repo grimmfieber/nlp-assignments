@@ -29,7 +29,7 @@ This project performs Named Entity Recognition (NER) on RSS feeds from The New Y
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ner-nyt-rss.git
+   git clone https://github.com/grimmfieber/nlp-assignments.git
    cd ner-nyt-rss
 
 2. **Create a virtual environment (optional but recommended):**
